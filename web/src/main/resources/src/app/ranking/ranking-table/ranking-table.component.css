@@ -1,0 +1,74 @@
+.table-search-box {
+  width: 80%;
+  background-color: #333333;
+  margin: 5px 10%;
+}
+
+.table-search-box input {
+  color: orange;
+}
+
+.table-search-form {
+  padding-left: 5%;
+}
+
+.table-search-form button {
+  margin-top: 10px;
+  background-color: #142850;
+  color: #00a8cc;
+  border-radius: 8px;
+}
+
+.table-label {
+  color: orange;
+}
+
+table {
+  width: 80%;
+  background-color: #333333;
+  color: #AAAAAA;
+  margin: 10px auto;
+  box-shadow: 5px 5px #444444;
+}
+
+table th {
+  color: orange;
+  background-color: #555555;
+}
+
+table td {
+  color: #CAC8C6;
+}
+
+.darkBg {
+  background-color: #444444;
+}
+
+.paginationText {
+  color: orange;
+}
+
+.mat-row:nth-child(even){
+  background-color: #222222;
+}
+.mat-row:nth-child(odd){
+  background-color: #333333;
+}
+
+::ng-deep .mat-paginator-page-size-select {
+  width: 35px!important;
+}
+::ng-deep .mat-select-value {
+  color: orange;
+  font-weight: bold;
+}
+::ng-deep .mat-select-arrow {
+  color: orange;
+}
+::ng-deep .mat-option {
+  background-color: #444444;
+  color: orange;
+}
+::ng-deep .mat-option-text {
+  text-align: right;
+}

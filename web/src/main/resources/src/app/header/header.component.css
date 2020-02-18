@@ -1,0 +1,50 @@
+.header {
+  background-color: #0f4c75;
+  height: 50px;
+  border: none;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 10;
+}
+.header a:hover {
+  color: orange !important;
+}
+
+.headerBtn {
+  color: #AAAAAA !important;
+}
+
+.logoutBtn {
+  display: inline-block;
+  border-radius: 8px;
+  background-color: #f4511e;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 10px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.logoutBtn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.logoutBtn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.logoutBtn:hover span {
+  padding-right: 25px;
+}
+.logoutBtn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
